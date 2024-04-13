@@ -1,0 +1,103 @@
+h1{
+    font-size: xx-large;
+    background-color: #f6f3fa;
+    color: #2287ba;
+    font-style: oblique;
+    text-decoration: solid;
+    position: fixed;
+   top:0;
+   left: 0;
+}
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f6f3fa;
+    background-image: url("https://thumbs.dreamstime.com/b/dictionary-dictionary-study-translate-bilingual-english-background-book-117950458.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-image: url("https://bit.ly/3VOMwuD");
+    background-color: #74c0ef;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    width: 400px;
+}
+#comment-section {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#comment-input {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#submit-comment {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#submit-comment:hover {
+    background-color: #45a049;
+}
+#search-input {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: block;
+    padding: 10px;
+    width: 100%;
+}
+
+#search-btn {
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+}
+#speak-btn{
+    background-color: #384ca5;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    width: 40%;
+}
+
+#result {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 10px;
+}
+footer{
+    position: fixed;
+    bottom: 0%;
+}
